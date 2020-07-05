@@ -6,7 +6,7 @@ SIZE = 5
 SHOW = ' *'
 HIDE = '  '
 
-# 坐标系构建法
+# 坐标系构建法,线性规划
 for y in range(SIZE - 1, -SIZE, -1):
     for x in range(-SIZE + 1, SIZE, 1):
         if (y > x - SIZE) and (y < x + SIZE) and \
